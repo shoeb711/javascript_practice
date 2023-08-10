@@ -58,3 +58,13 @@ const areaWithWidth = calculateWithWidth(10);
 //  You set the number once and then use the calculator with different values,
 //  knowing that the fixed number (in this case, width) is already taken care of.
 
+//give one more example of currying with comment explanation? 
+
+// function mul (num1) {
+//     return(num2) => {
+//       return num1 * num2
+//     }
+// }
+
+// const calculation = mul(2)
+// console.log(calculation(5))
