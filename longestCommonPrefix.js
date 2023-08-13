@@ -1,3 +1,4 @@
+//not working
 var longestCommonPrefix = function (strs) {
   let result = '';
 
