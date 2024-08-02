@@ -73,9 +73,9 @@ console.log(person.getName()); // Bob
 // Scope Chain: A closure has access to its own scope, the scope of the outer function, and the global scope.
 // Persistence: The variables in the outer function are preserved even after the outer function has finished executing.
 // Practical Use Cases: Closures are commonly used for data encapsulation, creating private variables, and function factories.
+
+
 // Example of Scope Chain
-// javascript
-// Copy code
 let globalVar = 'I am a global variable';
 
 function outerFunction(outerParam) {
