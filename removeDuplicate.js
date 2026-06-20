@@ -11,4 +11,4 @@ function removeDuplicate(arr) {
   return res;
 }
 
-console.log(removeDuplicate([1, 12, 3, 1, 50]));
+console.log(removeDuplicate([1, 12, 3, 1, 50,1,50,9]));
