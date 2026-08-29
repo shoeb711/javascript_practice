@@ -21,12 +21,11 @@ function topKFrequent(nums, k) {
         }
     }
 
-    console.log(obj);
+    // console.log(Object.entries(obj).sort(([,a], [,b]) => b - a).splice(0,k).map(([v]) => v)); // laternate soln
 
     const maxVal = Object.values(obj)
         .sort((a, b) => b - a)
         .splice(0, k);
-    console.log(maxVal);
 
     let res = [];
 
