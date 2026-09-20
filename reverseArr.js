@@ -1,11 +1,26 @@
-function reverseArray(arr) {
-  const res = [];
+function reverseArray(array) {
+    //   const res = [];
 
-  for (let i = arr.length - 1; i >= 0; i--) {
-    res.push(arr[i]);
-  }
+    //   for (let i = array.length - 1; i >= 0; i--) {
+    //     res.push(array[i]);
+    //   }
 
-  return res;
+    //   return res;
+
+    // reverse in place
+
+    let left = 0;
+    let right = array.length - 1;
+
+    while (left < right) {
+        // [array[left],array[right]] = [array[right], array[left]]
+        [array[left], array[right]] = [array[right], array[left]];
+
+        left++;
+        right--;
+    }
+
+    return array
 }
 
 const arr = [1, 2, 3, 4];
